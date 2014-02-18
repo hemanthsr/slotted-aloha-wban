@@ -1,0 +1,4 @@
+This is a simple event driven simulator for the slotted Aloha protocol specified in the IEEE 802.15.6 standard for wireless body area networks (WBAN). 
+With nodes/packets of two priority classes, throughput, collision probability and latency are estimated from a number of runs. 
+System model considered to be single hop network without hidden nodes, and with ideal channel conditions.
+
