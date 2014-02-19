@@ -7,7 +7,7 @@ int main()
 {
     cout << "Started..." << endl;
 
-/* output file will generate, the file name is:simulation_S_Aloha_output.txt in same folder where this program is*/
+/* output file will generate, the file name is:simout.txt */
 
     outfile.open("simout.txt",ios::out);
     outfile<<"#nodes(Lower UP)-#nodes(Higher UP)-PerClassThroughput(Lower UP)-PerClassThroughput(Higher UP)"<<endl;
@@ -246,7 +246,7 @@ per class throughput for UP0 = total_successful_packets_up0/total slots */
     outfile<<number_of_nodes_in_UP0<<"   "<<number_of_nodes_in_UP5<<"  "<<throughput_up0<<"  "<<throughput_up5<<"  "<<endl;
 
     cout<<"nodes_in_UP0: "<<number_of_nodes_in_UP0<<"nodes_in_UP5: "<<number_of_nodes_in_UP5<<"throughput_up0: "<<throughput_up0<<"throughput_up5: "<<throughput_up5<<endl;
-}
+}// end writestat function
 
 
 
