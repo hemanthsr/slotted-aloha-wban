@@ -19,7 +19,7 @@ using namespace std;
 #define SLOT_ALLOCATED 4
 #define SLOT_NOT_ALLOCATED 5
 
-#define MAXSLOTS 1000000 // for how many slots per simulation run
+#define MAXSLOTS 1000000 // for how many slots a simulation run operates for
 
 
 struct Node
